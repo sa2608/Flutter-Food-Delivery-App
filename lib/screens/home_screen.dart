@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-
+import '../data/data.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -10,8 +10,28 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text("data"),
+    return Scaffold(
+      appBar: AppBar(
+        elevation: 2.0,
+        centerTitle: true,
+        leading: IconButton(
+          icon: Icon(Icons.account_circle),
+          onPressed: () {},
+        ),
+        title: Text("Food Delivery"),
+        actions: [
+          FlatButton(
+            onPressed: null,
+            child: Text(
+              'Cart (${currentUser.cart.length})',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 18.0,
+              ),
+            ),
+          ),
+        ],
+      ),
       
     );
   }
