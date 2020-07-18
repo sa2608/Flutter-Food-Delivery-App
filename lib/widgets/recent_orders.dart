@@ -43,7 +43,7 @@ class RecentOrders extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          order.food.name ,
+                          order.food.name,
                           style: TextStyle(
                             fontSize: 18.0,
                             fontWeight: FontWeight.bold,
@@ -88,7 +88,7 @@ class RecentOrders extends StatelessWidget {
               color: Colors.white,
               onPressed: () {},
             ),
-          )
+          ),
         ],
       ),
     );
@@ -116,8 +116,8 @@ class RecentOrders extends StatelessWidget {
         Container(
           height: 120.0,
           child: ListView.builder(
-            physics: BouncingScrollPhysics(), //bouncing effect
-            padding: EdgeInsets.only(left: 10.0),
+              physics: BouncingScrollPhysics(), //bouncing effect
+              padding: EdgeInsets.only(left: 10.0),
               scrollDirection: Axis.horizontal,
               itemCount: currentUser.orders.length,
               itemBuilder: (BuildContext context, int index) {
