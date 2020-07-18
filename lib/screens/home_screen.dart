@@ -105,10 +105,10 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         elevation: 2.0,
         centerTitle: true,
-        leading: IconButton(
-          icon: Icon(Icons.account_circle),
-          onPressed: () {},
-        ),
+        // leading: IconButton(
+        //   icon: Icon(Icons.account_circle),
+        //   onPressed: () {},
+        // ),
         title: Text("Food Delivery"),
         actions: [
           FlatButton(
@@ -130,6 +130,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ],
       ),
+     
       body: ListView(
         children: [
           Padding(
