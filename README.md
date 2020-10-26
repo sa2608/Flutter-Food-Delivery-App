@@ -1,6 +1,11 @@
 # flutter_food_delivery_ui
 
 A new Flutter project.
+- Screenshots
+
+Screen 1               |  Screen 2                       | Screen 3                            |  Screen 4 
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![](flutter_01.png)|![](flutter_02.png)|![](flutter_03.png)|![](flutter_02.png)|
 
 ## Getting Started
 
